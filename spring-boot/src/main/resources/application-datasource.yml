@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Hello Spring
+  jdbc:
+    myself:
+      datasource:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql:///cloud2021?serverTimezone=GMT%2B8
+        username: root
+        password: 123456
+
+server:
+  port: 8189
+
